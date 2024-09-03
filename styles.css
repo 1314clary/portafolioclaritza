@@ -1,0 +1,38 @@
+
+.bandera {
+    width: 300px; /* Ancho de la bandera */
+    height: 200px; /* Alto de la bandera */
+    position: relative; /* Para posicionar los elementos relativamente */
+}
+
+.rectangulo {
+    position: absolute; /* Para posicionar los rectángulos absolutamente dentro del contenedor */
+    width: 100%;
+    height: 33.33%; /* Cada rectángulo ocupa un tercio de la altura */
+}
+
+.rojo {
+    background-color: #ed1c24; /* Color rojo */
+    top: 0;
+}
+
+.blanco {
+    background-color: #ffffff; /* Color blanco */
+    top: 33.33%; /* Posicionado debajo del primer rectángulo */
+}
+
+.azul {
+    background-color: #002d62; /* Color azul */
+    top: 66.66%; /* Posicionado debajo del segundo rectángulo */
+}
+
+.escudo {
+    position: absolute;
+    width: 100px; /* Ancho del escudo */
+    height: 100px; /* Alto del escudo */
+    background-image: url('escudo.png'); /* url del escudo */
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrar el escudo */
+}
